@@ -1,6 +1,77 @@
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+.body {
+  font-family: arial,sans-serif;
 }
+
+.center {
+  display: flex;
+  
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.infield{
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+}
+
+.inbutton{
+  background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: #5F6368;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+}
+
+.advinfield {
+  border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+}
+
+.advlabel {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+}
+
+
+.advbutton {
+    box-shadow: none;
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    border: 1px solid #3079ed;
+    color: #fff;
+    float: right;
+    margin: 10px 0;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 100%;
+    height: 30px;
+    min-width: 120px;
+}
+
